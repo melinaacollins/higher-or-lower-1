@@ -13,7 +13,6 @@ void draw(){
   //Yes button
   fill(#81FF79);
   rect(300,150,150,50);
-  //  (x,   y,   width, height);
       
   textSize(16);
   fill(#000000);
@@ -22,6 +21,7 @@ void draw(){
   //No button
   fill(#FF7979);
   rect(300,215,150,50);
+  //  (x,   y,   width, height);
   
   textSize(16);
   fill(#000000);
@@ -31,5 +31,9 @@ void draw(){
 void mousePressed(){
   if(mouseX < 450 && mouseX > 300 && mouseY < 200 && mouseY > 150){
     println("User pressed: Yes");
+  }else if(mouseX < 450 && mouseX > 300 && mouseY < 265 && mouseY > 215){
+    println("User pressed: No");
+  }else{
+    return;
   }
 }
