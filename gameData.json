@@ -1,0 +1,14 @@
+{
+    "companies":[
+        {
+            "id": 0,
+            "name": "Microsoft",
+            "viewerCount": 10000
+        },
+        {
+            "id": 1,
+            "name": "Apple",
+            "viewerCount": 5000
+        }
+    ]
+}
