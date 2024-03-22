@@ -2,6 +2,7 @@
 JSONObject json;
 
 boolean startScreen = true;
+int score = 0;
 
 //Yes button values
 int rx1 = 325;
@@ -57,31 +58,42 @@ void draw(){
     rect(rx1,ry1,rw1,rh1); 
     textSize(16);
     fill(#000000);
-    text("Yes", rx1+(rw1/2), ry1+(rh1/2));
     textAlign(CENTER,CENTER);
+    text("Yes", rx1+(rw1/2), ry1+(rh1/2));
     
     //No button
     fill(#FF7979);
     rect(rx2,ry2,rw2,rh2);
     textSize(16);
     fill(#000000);
-    text("No", rx2+(rw2/2), ry2+(rh2/2));
     textAlign(CENTER,CENTER);
+    text("No", rx2+(rw2/2), ry2+(rh2/2));
   }else{
+     //Text
+    textSize(16);
+    fill(#FFFFFF);
+    textAlign(RIGHT, BOTTOM);
+    text("Score: " + score, width-20, height-10);
     
+    line(width/2, height, width/2, height*-1);
+    stroke(#030303);
   }
 }
 
 void mousePressed(){
   //If button 'yes' is clicked -> continue
-  if(mouseX < bx1 && mouseX > rx1 && mouseY < by1 && mouseY > ry1){
-    startScreen = false;
-    println("User pressed: Yes");
-    
-  //If button 'no' is clicked -> exit
-  }else if(mouseX < bx2 && mouseX > rx2 && mouseY < by2 && mouseY > ry2){
-    this.exit();
+  if(startScreen == true){
+    if(mouseX < bx1 && mouseX > rx1 && mouseY < by1 && mouseY > ry1){
+      startScreen = false;
+      println("User pressed: Yes");
+      
+    //If button 'no' is clicked -> exit
+    }else if(mouseX < bx2 && mouseX > rx2 && mouseY < by2 && mouseY > ry2){
+      this.exit();
+    }else{
+      return;
+    }
   }else{
-    return;
+  
   }
 }
