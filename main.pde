@@ -1,17 +1,18 @@
+//Global variables
 JSONObject json;
 
 boolean startScreen = true;
 
-//Yes button
-int rx1 = 300;
+//Yes button values
+int rx1 = 325;
 int ry1 = 150;
 int rw1 = 150;
 int rh1 = 50;
 int bx1 = rx1+rw1;
 int by1 = ry1+rh1;
 
-//No button
-int rx2 = 300;
+//No button values
+int rx2 = 325;
 int ry2 = 215;
 int rw2 = 150;
 int rh2 = 50;
@@ -48,21 +49,24 @@ void draw(){
     //Text
     textSize(16);
     fill(#FFFFFF);
-    text("Play higher or lower?", 300, height/4);
+    text("Play higher or lower?", width/2, height/4);
+    textAlign(CENTER,CENTER);
     
     //Yes button
     fill(#81FF79);
     rect(rx1,ry1,rw1,rh1); 
     textSize(16);
     fill(#000000);
-    text("Yes", 365, 180);
+    text("Yes", rx1+(rw1/2), ry1+(rh1/2));
+    textAlign(CENTER,CENTER);
     
+    //No button
     fill(#FF7979);
     rect(rx2,ry2,rw2,rh2);
-       // x    y   w   h
     textSize(16);
     fill(#000000);
-    text("No", 365, 245);
+    text("No", rx2+(rw2/2), ry2+(rh2/2));
+    textAlign(CENTER,CENTER);
   }else{
     
   }
