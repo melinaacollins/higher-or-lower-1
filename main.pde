@@ -3,6 +3,8 @@ JSONObject json;
 
 boolean startScreen = true;
 int score = 0;
+int id1;
+int id2;
 
 //Yes button values
 int rx1 = 325;
@@ -39,8 +41,7 @@ void getVal(int x, String y, String type){
 }
 
 void setup(){
-  size(800,400);
-  getVal(0, "name", "string");
+  size(1600,800);
 }
 
 void draw(){
@@ -77,6 +78,21 @@ void draw(){
     
     line(width/2, height, width/2, height*-1);
     stroke(#030303);
+    
+    fill(#030303);
+    circle(width/2, height/2, width/8);
+    
+    fill(#FF7979); 
+    arc(width/2, height/2, 90, 90, radians(0), radians(180), PIE);
+    fill(#000000);
+    textAlign(CENTER,TOP);
+    text("Lower", width/2, (height/2)+10);
+
+    fill(#81FF79);
+    arc(width/2, height/2, 90, 90, radians(180), radians(360), PIE);
+    fill(#000000);
+    textAlign(CENTER,BOTTOM);
+    text("Higher", width/2, (height/2)-10);
   }
 }
 
