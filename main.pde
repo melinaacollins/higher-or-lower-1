@@ -41,7 +41,7 @@ void getVal(int x, String y, String type){
 }
 
 void setup(){
-  size(1600,800);
+  size(1200,600);
 }
 
 void draw(){
@@ -56,7 +56,7 @@ void draw(){
     
     //Yes button
     fill(#81FF79);
-    rect(rx1,ry1,rw1,rh1); 
+    rect(width-rw1,ry1,rw1,rh1); 
     textSize(16);
     fill(#000000);
     textAlign(CENTER,CENTER);
