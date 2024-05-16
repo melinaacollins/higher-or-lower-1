@@ -3,67 +3,67 @@
         {
             "id": 0,
             "name": "Microsoft",
-            "viewerCount": 10000,
+            "viewerCount": 5.480.000.000,
             "path": "./pictures/microsoft.jpeg"
         },
         {
             "id": 1,
             "name": "Apple",
-            "viewerCount": 5000,
+            "viewerCount": 15.180.000.000,
             "path": "./pictures/apple.jpg"
         },
         {
             "id": 2,
             "name": "Sony",
-            "viewerCount": 2000,
+            "viewerCount": 2.440.000.000,
             "path": "./pictures/sony.jpeg"
         },
         {
             "id": 3,
             "name": "Google",
-            "viewerCount": 1000,
+            "viewerCount": 25.270.000.000,
             "path": "./pictures/google.jpeg"
         },
         {
             "id": 4,
             "name": "Nvidia",
-            "viewerCount": 25000,
+            "viewerCount": 484.000.000,
             "path": "./pictures/nvidia.jpeg"
         },
         {
             "id": 5,
             "name": "Ryzen",
-            "viewerCount": 55000,
+            "viewerCount": 133.000.000,
             "path": "./pictures/ryzen.jpeg"
         },
         {
             "id": 6,
             "name": "Lenovo",
-            "viewerCount": 65000,
+            "viewerCount": 1.010.000.000,
             "path": "./pictures/lenovo.jpeg"
         },
         {
             "id": 7,
             "name": "Mcdonalds",
-            "viewerCount": 665000,
+            "viewerCount": 245.000.000,
             "path": "./pictures/mcdonalds.jpeg"
         },
         {
             "id": 8,
             "name": "Grand Theft Auto",
-            "viewerCount": 85000,
+            "viewerCount": 151.000.000,
             "path": "./pictures/gta.jpeg"
         },
         {
             "id": 9,
             "name": "Xbox",
-            "viewerCount": 95000,
+            "viewerCount": 1.690.000.000,
             "path": "./pictures/xbox.jpeg"
         },
         {
             "id": 10,
             "name": "Gucci",
-            "viewerCount": 235000,
+            "viewerCount": 474.000.000,
             "path": "./pictures/gucci.jpeg"
         }
     ]
