@@ -11,6 +11,60 @@
             "name": "Apple",
             "viewerCount": 5000,
             "path": "./pictures/apple.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Sony",
+            "viewerCount": 2000,
+            "path": "./pictures/sony.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Google",
+            "viewerCount": 1000,
+            "path": "./pictures/google.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Nvidia",
+            "viewerCount": 25000,
+            "path": "./pictures/nvidia.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "Ryzen",
+            "viewerCount": 55000,
+            "path": "./pictures/ryzen.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Lenovo",
+            "viewerCount": 65000,
+            "path": "./pictures/lenovo.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "Mcdonalds",
+            "viewerCount": 665000,
+            "path": "./pictures/mcdonalds.jpeg"
+        },
+        {
+            "id": 8,
+            "name": "Grand Theft Auto",
+            "viewerCount": 85000,
+            "path": "./pictures/gta.jpeg"
+        },
+        {
+            "id": 9,
+            "name": "Xbox",
+            "viewerCount": 95000,
+            "path": "./pictures/xbox.jpeg"
+        },
+        {
+            "id": 10,
+            "name": "Gucci",
+            "viewerCount": 235000,
+            "path": "./pictures/gucci.jpeg"
         }
     ]
 }
